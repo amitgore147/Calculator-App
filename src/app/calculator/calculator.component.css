@@ -1,0 +1,97 @@
+.container {
+  margin: 50px auto;
+  width: 360px;
+}
+
+.calculator {
+  background-color: #222;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+}
+
+.display {
+  background-color: #333;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 48px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: right;
+}
+
+.keypad .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.keypad button {
+  background-color: #444;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.keypad button:hover {
+  background-color: #555;
+}
+
+.keypad button.operator {
+  background-color: #ff9800;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.keypad button.operator:hover {
+  background-color: #f57c00;
+}
+
+.keypad button.clear {
+  background-color: #777;
+  color: #fff;
+  width: 130px;
+}
+
+.keypad button.backspace {
+  background-color: #777;
+  color: #fff;
+  width: 60px;
+}
+
+.keypad button.ac {
+  background-color: #777;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.keypad button.ac:hover {
+  background-color: #888;
+}
+
+.keypad button.inverse {
+  background-color: #777;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+}
+
+.keypad button.inverse:hover {
+  background-color: #888;
+}
